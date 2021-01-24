@@ -45,7 +45,7 @@ async def _(event):
     cid = iid.strip()
     reason = reasonn.strip()
     if cid.isnumeric():
-       cid = int(cid)
+        cid = int(cid)
     entity = await tbot.get_input_entity(cid)
     try:
         r_sender_id = entity.user_id
@@ -104,7 +104,7 @@ async def _(event):
     cid = iid.strip()
     reason = reasonn.strip()
     if cid.isnumeric():
-       cid = int(cid)
+        cid = int(cid)
     entity = await tbot.get_input_entity(cid)
     try:
         r_sender_id = entity.user_id
