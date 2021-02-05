@@ -13,7 +13,6 @@ from telethon.tl import types
 from telethon.tl.types import *
 
 from julia import *
-from julia.events import register
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)

@@ -1,8 +1,6 @@
 from julia import CMD_HELP
 from julia import tbot
-import json
 import os
-import time
 import cloudmersive_ocr_api_client
 from cloudmersive_ocr_api_client.rest import ApiException
 from pymongo import MongoClient

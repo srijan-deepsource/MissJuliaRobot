@@ -7,7 +7,7 @@ import julia.modules.sql.chatbot_sql as sql
 from coffeehouse.api import API
 from coffeehouse.exception import CoffeeHouseError as CFError
 from coffeehouse.lydia import LydiaAI
-from julia import LYDIA_API_KEY, OWNER_ID
+from julia import LYDIA_API_KEY
 from telethon import types
 from telethon.tl import functions
 from julia.events import register

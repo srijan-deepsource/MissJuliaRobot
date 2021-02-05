@@ -1,7 +1,6 @@
 from julia import CMD_HELP
 from julia import tbot
 import os
-from asyncio import sleep
 from datetime import datetime
 
 from requests import get

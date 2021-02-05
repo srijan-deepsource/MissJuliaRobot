@@ -1,10 +1,7 @@
 from julia import CMD_HELP
 import os
 from julia import tbot
-import json
 import re
-
-import rapidjson as json
 from bs4 import BeautifulSoup
 from requests import get
 from telethon import types
