@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from julia import MONGO_DB_URI, CMD_HELP
 from julia.events import register
 import dateparser
-import os, asyncio
+import os
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
